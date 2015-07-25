@@ -470,6 +470,10 @@ proj:
   osx:
     homebrew:
       packages: [proj]
+protobuf:
+  osx:
+    homebrew:
+      packages: [protobuf]
 protobuf-dev:
   osx:
     homebrew:
