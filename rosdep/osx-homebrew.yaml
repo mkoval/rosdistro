@@ -710,6 +710,10 @@ yaml-cpp:
     homebrew:
       depends: [yaml]
       packages: [yaml-cpp-0.3]
+zeromq:
+  osx:
+    homebrew:
+      packages: [zeromq]
 zlib:
   osx:
     homebrew:
