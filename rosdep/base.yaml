@@ -751,6 +751,8 @@ gdal-bin:
   fedora: [gdal]
   gentoo: [sci-libs/gdal]
   ubuntu: [gdal-bin]
+geos:
+  ubuntu: [libgeos-dev]
 gforth:
   arch: [gforth]
   debian: [gforth]
@@ -1287,11 +1289,15 @@ libfltk-dev:
     trusty: [libfltk1.1-dev]
     utopic: [libfltk1.3-dev]
     vivid: [libfltk1.3-dev]
+libfontconfig1-dev:
+  ubuntu: [libfontconfig1-dev]
 libfreenect-dev:
   arch: [libfreenect]
   debian: [libfreenect-dev]
   fedora: [libfreenect-devel]
   ubuntu: [libfreenect-dev]
+libfreetype6:
+  ubuntu: [libfreetype6]
 libftdi-dev:
   arch: [libftdi]
   debian: [libftdi-dev]
@@ -1530,6 +1536,8 @@ libjsoncpp-dev:
     portage:
       packages: [dev-libs/jsoncpp]
   ubuntu: [libjsoncpp-dev]
+libkdtree++-dev:
+  ubuntu: [libkdtree++-dev]
 liblapack-dev:
   arch: [lapack]
   debian: [liblapack-dev]
@@ -1562,6 +1570,8 @@ libmarble-dev:
     portage:
       packages: [kde-base/marble]
   ubuntu: [libmarble-dev]
+libmicrohttpd:
+  ubuntu: [libmicrohttpd-dev]
 libmodbus-dev:
   fedora: [libmodbus-devel]
   ubuntu: [libmodbus-dev]
@@ -2075,6 +2085,8 @@ libsimage-dev:
     portage:
       packages: [media-libs/simage]
   ubuntu: [libsimage-dev]
+libsndfile1-dev:
+  ubuntu: [libsndfile1-dev]
 libsoqt4-dev:
   arch: [soqt]
   debian: [libsoqt4-dev]
@@ -2737,6 +2749,8 @@ pcre-dev:
   gentoo: [dev-libs/pcre++]
   rhel: [pcre-devel]
   ubuntu: [libpcre++-dev]
+phantomjs:
+  ubuntu: [phantomjs]
 pkg-config:
   arch: [pkg-config]
   cygwin: [pkg-config]
@@ -3003,6 +3017,8 @@ sqlite3:
   debian: [sqlite3]
   fedora: [sqlite]
   ubuntu: [sqlite3]
+sshpass:
+  ubuntu: [sshpass]
 subversion:
   arch: [subversion]
   debian: [subversion]

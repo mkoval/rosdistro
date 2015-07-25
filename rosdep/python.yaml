@@ -130,6 +130,14 @@ python-avahi:
     trusty: [python-avahi]
     utopic: [python-avahi]
     vivid: [python-avahi]
+python-babel:
+  fedora: [python-babel]
+  ubuntu:
+    precise: [python-babel]
+    trusty: [python-babel]
+    utopic: [python-babel]
+    vivid: [python-babel]
+    wily: [python-babel]
 python-beautifulsoup:
   arch: [python2-beautifulsoup3]
   debian: [python-beautifulsoup]
@@ -297,6 +305,9 @@ python-cpplint:
       packages: [cpplint]
 python-crypto:
   fedora: [python-crypto]
+  osx:
+    pip:
+      packages: [pycrypto]
   ubuntu:
     lucid: [python-crypto]
     maverick: [python-crypto]
@@ -410,6 +421,12 @@ python-espeak:
     saucy: [python-espeak]
     trusty: [python-espeak]
     trusty_python3: [python3-espeak]
+python-evdev:
+  ubuntu:
+    trusty: [python-evdev]
+    utopic: [python-evdev]
+    vivid: [python-evdev]
+    wily: [python-evdev]
 python-flake8:
   fedora:
     '21': [python-flake8]
@@ -574,6 +591,10 @@ python-jsonref-pip:
   ubuntu:
     pip:
       packages: [jsonref]
+python-kdtree:
+  ubuntu:
+    pip:
+      packages: [kdtree]
 python-kitchen:
   arch: [python-kitchen]
   debian: [python-kitchen]
@@ -1050,6 +1071,19 @@ python-pygraphviz:
     trusty: [python-pygraphviz]
     utopic: [python-pygraphviz]
     vivid: [python-pygraphviz]
+python-pykalman:
+  debian:
+    pip:
+      packages: [pykalman]
+  fedora:
+    pip:
+      packages: [pykalman]
+  osx:
+    pip:
+      packages: [pykalman]
+  ubuntu:
+    pip:
+      packages: [pykalman]
 python-pylint:
   debian: [pylint]
   fedora: [pylint]
@@ -1115,10 +1149,10 @@ python-pymouse:
   ubuntu:
     pip:
       packages: [pymouse]
-python-pynema2:
+python-pynmea2:
   ubuntu:
     pip:
-      packages: [pynema2]
+      packages: [pynmea2]
 python-pyproj:
   debian:
     apt:
@@ -1177,6 +1211,10 @@ python-pyudev:
     saucy: [python-pyudev]
     trusty: [python-pyudev]
     trusty_python3: [python3-pyudev]
+python-pyuserinput:
+  ubuntu:
+    pip:
+      packages: [PyUserInput]
 python-qt-bindings:
   arch: [python2-pyqt4]
   debian:
@@ -1428,6 +1466,10 @@ python-scipy:
     utopic_python3: [python3-scipy]
     vivid: [python-scipy]
     vivid_python3: [python3-scipy]
+python-selenium-pip:
+  ubuntu:
+    pip:
+      packages: [selenium]
 python-serial:
   arch: [python2-pyserial]
   debian: [python-serial]
