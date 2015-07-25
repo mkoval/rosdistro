@@ -519,6 +519,10 @@ python-mock:
   osx:
     pip:
       packages: [mock]
+python-protobuf:
+  osx:
+    pip:
+      packages: [protobuf]
 python-netifaces:
   osx:
     pip:
